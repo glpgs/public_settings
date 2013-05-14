@@ -117,10 +117,6 @@ android
     <module name="RedundantThrows"/>
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
-    <module name="DesignForExtension">
-      <property name="severity" value="ignore"/>
-      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
-    </module>
     <module name="FinalClass"/>
     <module name="HideUtilityClassConstructor"/>
     <module name="InterfaceIsType"/>
@@ -167,7 +163,6 @@ android
       <property name="tokens" value="INTERFACE_DEF"/>
       <message key="name.invalidPattern" value="インターフェイス名はhogeable, hogeListener, hogeCallback, hogeHandlerでオナシャス"/>
     </module>
-    <module name="DesignForExtension"/>
   </module>
   <module name="NewlineAtEndOfFile">
     <property name="severity" value="ignore"/>
